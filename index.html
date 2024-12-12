@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="menu">
+        <h1 class="blocNotas">Bloc de notas</h1>
+        <div>
+        <label for="boton">Tema:</label>
+        <select id="boton">
+            <option value="claro" id="boton1" style="background-color: rgb(252, 218, 147); color: black;">Claro🌞</option>
+            <option value="rosa" id="boton1" style="background-color: rgb(253, 97, 245); color: black;">Rosa🌸</option>
+            <option value="azul" id="boton2" style="background-color: rgb(99, 180, 238); color: black;">Azul🌊</option>
+            <option value="verde" id="boton3" style="background-color: rgb(72, 233, 144); color: black;">Verde🍃</option>
+            <option value="oscuro" id="boton4" style="background-color: rgb(77, 73, 73); color: rgb(255, 255, 255);">Oscuro🌙</option>
+        </select>
+        </div>
+    </div>
+    <div class="menu2">
+        <textarea name="rectangulo" id="rectangulo" class="textareaa" placeholder="Escribe tu nota aquí..." rows="10"></textarea>
+        <button onclick="agregarNota()" class="botonAñadir">Añadir Nota</button>
+        <h2>Notas:</h2>
+        <div id="notas"></div>
+    </div>
+    <h3 id="h3" class="oculto">No hay notas para mostrar🍃</h3>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

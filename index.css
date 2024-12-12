@@ -1,0 +1,33 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(203, 169, 235);
+}
+
+.textareaa{
+    width: 95%;
+    margin: 1%;
+}
+
+.botonAñadir{
+    background-color: rgb(191, 68, 216);
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 0;
+    padding: 10px;
+}
+
+.oculto {
+    display: none;
+}
+
+.pepe{
+    background-color: rgb(93, 0, 112);
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 0;
+    padding: 10px;
+}
